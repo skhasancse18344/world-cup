@@ -24,6 +24,13 @@
     justify-content: space-between;
     border-radius: 8px;
     margin-top: 40px;
+    transition: 1s;
+}
+.banner:hover{
+    background-color: rgba(53, 49, 49, 0.799) ;
+}
+.banner:hover .banner-content button{
+    background-color: rgba(226, 237, 76, 0.799) ;
 }
 .banner-content{
     color: #fff;
@@ -236,6 +243,10 @@ footer{
     margin-bottom: 40px;
     padding-left: 260px;
     
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
 }
 .social-icon .fa-brands{
      margin-left: 50px;
